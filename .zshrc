@@ -70,7 +70,7 @@ ZSH_CUSTOM=$HOME/.oh-my-zsh.custom
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(ssh-agent git nvm golang)
 
-zstyle :omz:plugins:ssh-agent identities id_rsa github.key github.nextmv.key
+zstyle :omz:plugins:ssh-agent identities github.key
 
 source $ZSH/oh-my-zsh.sh
 
